@@ -3058,24 +3058,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "tape-deck"
-version = "0.1.0"
-dependencies = [
- "ahash",
- "clap",
- "crossbeam-channel",
- "eframe",
- "egui",
- "egui_dock",
- "egui_extras",
- "egui_plot",
- "postcard",
- "rayon",
- "time",
- "tracing-tape",
-]
-
-[[package]]
 name = "tempfile"
 version = "3.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3226,6 +3208,24 @@ dependencies = [
  "indexmap",
  "toml_datetime",
  "winnow 0.6.18",
+]
+
+[[package]]
+name = "trace-deck"
+version = "0.1.0"
+dependencies = [
+ "ahash",
+ "clap",
+ "crossbeam-channel",
+ "eframe",
+ "egui",
+ "egui_dock",
+ "egui_extras",
+ "egui_plot",
+ "postcard",
+ "rayon",
+ "time",
+ "tracing-tape",
 ]
 
 [[package]]

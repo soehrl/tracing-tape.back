@@ -3,5 +3,5 @@ resolver = "2"
 
 members = [ 
     "tracing-tape",
-    "tape-deck",
+    "trace-deck",
 ]
